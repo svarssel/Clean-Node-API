@@ -1,5 +1,3 @@
-import { Http2ServerRequest } from "http2";
-
 export class SignUpController {
   handle (httpRequest: any): any {
     if(!httpRequest.body.name) {
